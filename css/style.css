@@ -1,0 +1,28 @@
+.sas{
+  width:50%;
+  height: 300px;
+  border: 5px solid gray;
+  animation:sasi;
+  animation-delay:2s;
+  animation-duration:5s;
+  animation-timing-function:ease;
+  animation-iteration-count:infinite;
+  box-shadow:6px 6px 6px black;
+  border-radius:300px;
+}
+@keyframes sasi{
+	0%{
+		background-color:orange;
+	}
+	25%{
+		background-color:green;
+	}
+	50%{
+		background-color:yellow;
+	}
+	100%{
+		background-color:pink;
+	}
+	
+	
+}
